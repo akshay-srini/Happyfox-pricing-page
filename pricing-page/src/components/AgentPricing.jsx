@@ -5,12 +5,12 @@ import { IoIosArrowForward } from "react-icons/io";
 import { LuPlus } from "react-icons/lu";
 
 export default function AgentPricing() {
-
+    
     return (
     <section className='pricing-section'>
         <div className='pricing-container'>
             
-            <button className="diff-types current">Monthly</button>
+            <button className="diff-types">Monthly</button>
             <button className="diff-types">Annual</button>
             <button className="diff-types">2 - Year Saving plan<br></br><span>Paid Up-front</span></button>
             <button className='diff-types'> 3 - Year Contract<br></br><span>Billed Annually</span></button>
@@ -58,7 +58,7 @@ export default function AgentPricing() {
             <button className='types-button'>Get a Demo <IoIosArrowForward className='arrow' /></button>
             </div>
             
-            <div className="container-box active">
+            <div className="container-box">
                 <p className='most-popular'>Most Popular</p>
                 <div className='type-name'>Enterprise</div>
                 <div className="type-details">
@@ -77,7 +77,7 @@ export default function AgentPricing() {
                 <div className='details-points'><VscCircleSmall className='bullet-points' />Migration Assistance</div>
             </div>
             
-            <button className='types-button active-button '>Get a Demo <IoIosArrowForward className='active-arrow' /></button>
+            <button className='types-button'>Get a Demo <IoIosArrowForward className='arrow' /></button>
             </div><div className="container-box">
                 <div className='type-name'>Enterprise Plus</div>
                 <div className="type-details">

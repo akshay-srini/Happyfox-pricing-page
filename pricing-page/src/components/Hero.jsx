@@ -9,7 +9,7 @@ export default function Hero() {
             <li className='category-box'>
                 <a href="#">Agent-based pricing</a>
             </li>
-            <li className='category-box highlighted'>
+            <li className='category-box'>
                 <a href="#">Unlimited Agents</a>
             </li>
         </ul>

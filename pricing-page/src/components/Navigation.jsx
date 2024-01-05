@@ -24,11 +24,11 @@ export default function Navigation() {
               </div>
             <ul className='features-section'>
               <li classname="product-details">
-                <a href="#" className='product-name'>features</a>
+                <a href="#" className='product-name'>Features</a>
                 <MdOutlineArrowDropDown />
               </li>
               <li classname="product-details">
-                <a href="#" className='product-name'>solutions</a>
+                <a href="#" className='product-name'>Solutions</a>
                 <MdOutlineArrowDropDown />
               </li>
               <li classname="product-details">
